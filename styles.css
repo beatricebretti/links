@@ -1,12 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif; 
     margin: 0;
-    padding: 20px 0;
+    padding: 0;
     display: flex;             
     flex-direction: column;    
     align-items: center;       
     justify-content: center;    
-    height: 100vh;            
     text-align: center;       
     background-color: #f0f0f0; 
 }
@@ -26,6 +25,10 @@ section {
 
 h1 {
     font-family: 'Pacifico', cursive; 
+}
+
+h1.metodo {
+    font-family: 'Roboto', cursive; 
 }
 
 main {
@@ -59,9 +62,19 @@ a:hover {
 
 footer {
     background: #fcb8bc; 
-    color: f0f0f0; 
+    color: #f0f0f0; 
     text-align: center;
     margin-top: 20px;
     width: 100%;               
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e68a8d;
 }
