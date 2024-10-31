@@ -2,44 +2,61 @@ body {
     font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
-    display: flex;             
-    flex-direction: column;    
-    align-items: center;       
-    justify-content: center;    
-    text-align: center;       
-    background-color: #f0f0f0; 
+    background: linear-gradient(to bottom right, #ffeff2, #ffb3b3);
+    color: #333; 
+    text-align: center;
 }
 
 header {
-    background: #fcb8bc; 
-    color: #f0f0f0;        
-    width: 100%;               
-    padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    border-radius: 5px; 
+    background-color: #f8b6c4; /* Rosado suave */
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4a6b4; /* Color de hover rosado un poco más oscuro */
+}
+
+/* Mejorar el estilo de las secciones */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 section {
+    background: #fff;
     margin: 20px;
-}
-
-h1 {
-    font-family: 'Pacifico', cursive; 
-}
-
-h1.metodo {
-    font-family: 'Roboto', cursive; 
-}
-
-main {
-    flex: 1;                    
-    width: 100%;              
-    max-width: 800px;        
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
 }
 
 h2 {
     font-family: 'Pacifico', cursive;
-    color: #fcb8bc; 
+    color: #f8b6c4; /* Rosado suave para los encabezados */
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -48,33 +65,32 @@ ul {
 }
 
 li {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 a {
-    color: #d67e8c; 
-    text-decoration: none; 
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 a:hover {
-    color: #c05461; 
+    color: #e05550;
 }
 
 footer {
-    background: #fcb8bc; 
-    color: #f0f0f0; 
-    text-align: center;
+    background: #f8b6c4; /* Rosado suave */
+    color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
-    width: 100%;               
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
 }
 
-nav a:hover {
-    color: #e68a8d;
+/* Mejora de los TikTok embeds */
+.tiktok-embed {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
 }
+
