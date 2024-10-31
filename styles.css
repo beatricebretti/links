@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #f8b6c4; /* Rosado suave */
+    background-color: #f8b6c4;
     color: #ffffff;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -29,10 +29,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #f4a6b4; /* Color de hover rosado un poco más oscuro */
+    color: #f4a6b4; 
 }
 
-/* Mejorar el estilo de las secciones */
 main {
     display: flex;
     flex-direction: column;
@@ -54,7 +53,7 @@ section {
 
 h2 {
     font-family: 'Pacifico', cursive;
-    color: #f8b6c4; /* Rosado suave para los encabezados */
+    color: #f8b6c4; 
     font-size: 1.8em;
     margin-bottom: 10px;
 }
@@ -80,14 +79,13 @@ a:hover {
 }
 
 footer {
-    background: #f8b6c4; /* Rosado suave */
+    background: #f8b6c4; 
     color: #ffffff;
     padding: 10px 0;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
 
-/* Mejora de los TikTok embeds */
 .tiktok-embed {
     border-radius: 10px;
     overflow: hidden;
